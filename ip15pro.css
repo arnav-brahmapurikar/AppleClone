@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+body{
+    
+    background-color: transparent;
+  
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position:sticky;
+    top :0px;
+    backdrop-filter: blur(10px);
+  
+  
+  
+    
+}
+
+.emi {
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    justify-content: center;
+    color: white;
+    padding: 15px 0;
+    font-weight: 250;
+    font-size: 14px;
+}
+
+
+.blue {
+    color: #006EDB;
+}
+
+nav ul{
+   
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    gap: 15px;
+    justify-self: center;
+    padding: 15px  0px 8px 0px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    font-style: normal;
+    font-weight:300;
+    list-style: none;
+    color: white;
+    font-size: 11px;
+    column-gap: 45px;
+    
+}
+nav li {
+    row-gap: 50px;
+    font-weight: 100;
+    color: rgb(165, 165, 165);
+}
+nav li img{
+    width: 14px;
+    padding-bottom: 5px ;
+  
+}
+
+.black {
+    color: black;
+}
+.white {
+    color: white;
+}
+.gray {
+    color: gray;
+}
+
+.xxlar {
+    font-size: 80px;  
+}
+
+.xlar{
+font-size: 70px;    
+}
+
+.lar {
+    font-size: 55px;
+    width: auto;
+    height: auto;
+}
+
+.med {
+    font-size: 30px;
+    width: auto;
+    height: auto;
+}
+.small{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+}
+
+.smallmed {
+    font-size: 25px;
+    width: auto;
+    height: auto;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.blue {
+    color: #006EDB;
+}
+
+.macitems {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    column-gap: 100px;
+    background: #f2f2f2;
+}
+
+.macitems img {
+    margin-bottom: 30px;
+}
+
+#imac img ,#macpro img{
+    scale: 0.6;
+ 
+}
+.center {
+   text-align: center;
+
+}
+.shopitem  {
+    height: 800px;
+    width: 300px;
+    background: #f2f2f2;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.mbprobutton {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+column-gap: 15px;
+}
+
+.mbprobutton input{
+padding: 12px 18px;
+background-color: #006EDB;
+color: white;
+border: 0px;
+border-radius: 25px;
+font-size: 20px;
+margin-top: 20px;
+}
+
+#mbprobuy ,#mbairbuy {
+    color:#006EDB;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.faltutext {
+    font-size: 12px;
+    padding: 100px 200px;
+    color: gray;
+}
+
+.explorefs {
+    background: rgb(18, 18, 18);
+    padding-left: 23%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.forgedint {
+    margin-top: 120px;
+
+}
+
+.forgedimg {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+
+.forgedtext {
+    display: flex;
+    
+}
+
+.forgedtext div {
+    width: 350px;
+    padding: 90px;
+}
+
+.chip {
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#vidvid {
+display: flex;
+align-content: center;
+padding-top: 50px;
+justify-content: center;
+border-radius: 100px;
+border-top-left-radius: 50px;border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+height: inherit;
+width: inherit;
+}
+#vidvid video {
+    
+    object-fit: cover;
+    padding-top: 100px;
+    height:500px;  width: 1030px;
+}
+
+.gameplay img{
+    z-index: 1;
+    align-self:center ;
+    justify-self: center;
+    padding-top:145px ;
+    position: absolute;
+    left: 22.5%;
+}
+
+#Honkai {
+   margin-top: 20px;
+   margin-bottom: 100px;
+}
+
+.gputext{
+    display: flex;
+    column-gap: 100px;
+    margin-bottom: 150px;
+}
+
+.gputext div{
+width: 400px;
+text-align: left;
+margin-bottom: 10px;
+}
+
+
+.center {
+   text-align: center;
+
+}
+.shopitem  {
+    height: 850px;
+    width: 350px;
+    background: #f2f2f2;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+.ipitems {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    column-gap: 80px;
+    background: #f2f2f2;  
+     justify-content:baseline;
+}
+
+.mbprobutton {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+column-gap: 15px;
+}
+
+.mbprobutton input{
+padding: 12px 18px;
+background-color: #006EDB;
+color: white;
+border: 0px;
+border-radius: 25px;
+font-size: 20px;
+margin-top: 20px;
+}
+
+.mbprobutton input:hover {
+   
+    background: #00488f;
+}
+
+
+.shopitem img {
+    transition: transform .25s;
+}
+
+
+.shopitem img:hover {
+    transform: scale(1.03);
+}
+
+#ip15probuy ,#ip15buy,#ip13buy,#ip14buy {
+    color:#006EDB;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+
+#ip15probuy:hover ,#ip15buy:hover,#ip13buy:hover,#ip14buy:hover {
+    color:#00488f;
+    background-color: rgb(240, 240, 240);
+    text-decoration: underline;
+}
+
+.faltutext {
+    font-size: 12px;
+    padding: 100px 200px;
+    color: gray;
+    background: rgb(237, 236, 236);
+}
+
+#iphonetexthead {
+    padding-bottom: 70px;
+}
+.explorelineupheading {
+    display: flex;
+    justify-content: space-between;
+    padding : 120px 100px 0px;
+    background: #f2f2f2;
+}
+video {
+    padding-left: 100px;
+    border-radius: 50px;
+}
+
+.bluebut:hover {
+    color: #002c58;
+    transform: scale(1.05);
+}
+.ipadnormal{
+    background: url(Assets/ipad_hero__d0tgmaq6shm6_large.jpeg);
+}
+
+
+li input{
+    background:transparent;
+    color: rgb(133, 133, 133);
+    border: 0;
+}
+
+li input:hover {
+    color: rgb(229, 229, 229);
+}
+
+li img {
+    height: 18px;
+    position: relative;
+    top: -2px;
+
+}
+#shopcart {
+    width: 18px;
+    height: 18px;
+
+    background-image: url(Assets/2.png);
+    background-size: contain;
+    position: relative;
+    top: -2px;
+}
+#shopcart:hover {
+    transform: scale(1.2);
+
+}

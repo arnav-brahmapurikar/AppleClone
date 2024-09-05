@@ -1,0 +1,327 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    /* font-family:  Arial, sans-serif; */
+    font-family: "SF-Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  
+  
+      
+
+}
+body{
+        overflow-x:hidden ;
+        background-color: transparent;
+      
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position:static;
+    top :0px;
+    
+  
+  
+    
+}
+
+nav ul{
+    
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    gap: 15px;
+    justify-self: center;
+    padding: 15px  0px 8px 0px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    font-style: normal;
+    font-weight:300;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    column-gap: 45px;
+    
+}
+nav li {
+    row-gap: 50px;
+    font-weight: 100;
+    color: rgb(1, 1, 1);
+}
+nav img{
+    width: 14px;
+    padding-bottom: 5px ;
+  
+}
+.image {
+    width: 100%;
+    background: rgb(251,251,251);
+   display: flex;
+   align-content: center;
+   justify-content: center;
+
+}
+#macshow{
+  width:55%;
+   
+}
+.heading {
+    width: 90%;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 90px ;
+}
+.med {
+font-size: 30px ;
+font-weight: bold;
+align-self: center;
+}
+
+.xlar{
+font-size: 80px;
+font-weight: bold;
+}
+.macvideo video {
+    width: 100%;
+    height: 672px ;
+    object-fit: cover;
+    margin-bottom: 150px;
+}
+
+.gettoknowmac {
+    display: flex;
+    flex-direction: column;
+   padding-left: 100px;
+   padding-bottom: 150px;
+  
+    
+}
+
+.imagesmac {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+     column-gap: 25px;
+    
+
+}
+
+.imagesmac div {
+    height: 760px;
+    width: 420px;
+    border-radius: 40px;
+    transition: transform .25s;
+    background-size: cover;
+    padding: 20px;
+    
+}
+.imagesmac div:hover {
+    transform: scale(1.02); 
+  }
+  
+.displaymac{
+
+    display: flex;
+    flex-direction: column;
+      
+    
+     
+}
+
+.displaymac div{
+    height:10px;
+}
+
+.white {
+    color: white;
+}
+
+.lar {
+    font-size: 55px;
+    font-weight: 600;
+    width: auto;
+    height: auto;
+}
+
+.med {
+    font-size: 30px;
+    width: auto;
+    height: auto;
+}
+.small{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.black {
+    color: black;
+}
+
+#hellomac{
+   
+
+background-image: url(Assets/feature_fitness__bqrhzxk45liu_xlarge.jpg);
+}
+#gofastmac{
+   
+    background-image: url(Assets/feature_health__b8l8jg8aa0b6_xlarge.jpg);
+}
+#dreamteammac{
+    
+    background-image: url(Assets/feature_connectivity__k68bkgj3a6ie_xlarge.jpg);
+}
+#compatiblitymac{
+   
+    background-image: url(Assets/feature_safety__c5gr3nzfh20y_xlarge.jpg);
+}
+
+.explorelineupheading {
+    display: flex;
+    justify-content: space-between;
+    padding : 140px 100px;
+    background: #f2f2f2;
+}
+
+.blue {
+    color: #006EDB;
+}
+
+.watchitems {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    column-gap: 150px;
+    background: #f2f2f2;
+}
+.watchitems img:hover {
+transform: scale(1.04);
+}
+
+
+.watchitems img{
+    transition: transform 0.2s;
+   
+    }
+
+
+.center {
+   text-align: center;
+
+}
+.shopitem  {
+    height: 800px;
+    width: 300px;
+    background: #f2f2f2;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+    padding-top:0;
+    margin-top: 0;
+}
+
+.mbprobutton {
+display: flex;
+flex-direction: row;
+justify-content: center;
+column-gap: 15px;
+}
+.mbprolearn:hover {
+background: #0052a4;
+}
+
+#aws9{
+    padding-top:22px;
+}
+
+.mbprobutton input{
+padding: 12px 18px;
+
+
+border: 0px;
+border-radius: 25px;
+font-size: 20px;
+margin-top: 20px;
+}
+
+.mbprolearn{
+    background-color: #006EDB;
+    color: white;
+}
+
+.bluebut {
+    color: #006EDB;
+
+}
+.bluebut:hover {
+    text-decoration: underline;
+transform: scale(1.05);
+    
+}
+
+#mbprobuy ,#mbairbuy {
+    color:#006EDB;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.faltutext {
+    font-size: 12px;
+    padding: 100px 200px;
+    color: gray;
+}
+
+
+li input{
+    background:transparent;
+    color: rgb(0, 0, 0);
+    border: 0;
+}
+
+li input:hover {
+    color: rgb(54, 54, 54);
+}
+
+li img {
+    height: 18px;
+    position: relative;
+    top: -2px;
+    width: 18px;
+
+}
+#shopcart {
+    width: 18px;
+    height: 18px;
+
+    background-image: url(Assets/1.png);
+    background-size: contain;
+    position: relative;
+    top: -2px;
+}
+#shopcart:hover {
+    transform: scale(1.2);
+
+}
+
+
+.shopitem img {
+    transition: transform .25s;
+}
+
+
+.shopitem img:hover {
+    transform: scale(1.03);
+}

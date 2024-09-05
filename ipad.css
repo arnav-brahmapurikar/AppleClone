@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+ 
+}
+
+
+body{
+    
+    background-color: black;
+  
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position:sticky;
+    top :0px;
+    backdrop-filter: blur(10px);
+  
+  
+  
+    
+}
+
+.blue {
+    color: #006EDB;
+}
+
+nav ul{
+   
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    gap: 15px;
+    justify-self: center;
+    padding: 15px  0px 8px 0px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    font-style: normal;
+    font-weight:300;
+    list-style: none;
+    color: white;
+    font-size: 11px;
+    column-gap: 50px;
+    
+}
+nav li {
+    padding-top: 5px;
+    row-gap: 50px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);font-size: 13px;
+}
+nav li img{
+    width: 14px;
+    padding-bottom: 5px ;
+  
+}
+
+.black {
+    color: black;
+}
+.white {
+    color: white;
+}
+.gray {
+    color: gray;
+}
+
+.xxlar {
+    font-size: 80px;  
+}
+
+.xlar{
+font-size: 70px;    
+}
+
+.lar {
+    font-size: 55px;
+    width: auto;
+ 
+}
+
+.med {
+    font-size: 30px;
+    width: auto;
+    
+}
+.small{
+    font-size: 20px;
+    width: auto;
+ 
+}
+
+.smallmed {
+    font-size: 25px;
+    width: auto;
+    
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.blue {
+    color: #006EDB;
+}
+
+.buybutton {
+    margin: 10px 0;
+    background-color: transparent;
+    border: 2px solid #006edb;
+    color:   #006edb ;
+    border-radius:  20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.Learnmore {
+    
+    margin: 10px 0;
+    border: none;
+    background-color: #006EDB;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px ;
+    font-size: 18px;
+}
+
+
+.shopitem  {
+    height: 800px;
+    width: 300px;
+    background: #f2f2f2;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.mbprobutton {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+column-gap: 15px;
+}
+
+.mbprobutton input{
+padding: 12px 18px;
+background-color: #006EDB;
+color: white;
+border: 0px;
+border-radius: 25px;
+font-size: 20px;
+margin-top: 20px;
+}
+.frontipad {
+    display: flex;
+    flex-direction: row;
+    background: url(Assets/ipad_pro_hero__bh3eq6sqfjw2_large.jpeg);
+    height: 830px;
+    background-repeat: no-repeat;
+    background-position: 85% 45% ;
+    
+}
+
+
+.mbprobutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 15px;
+    }
+
+    #frontbutton{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        }
+    
+    .mbprobutton input{
+    padding: 12px;
+    background-color: #006EDB;
+    color: white;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    }
+    
+    .mbprobutton input:hover {
+       
+        background: #00488f;
+    }
+
+    .infoipad {
+        padding-top: 50px;
+       padding-left: 25%;
+        text-align: center;
+        width: auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .infopad img {
+        
+    } */
+    .ipads{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iconcontain {
+        
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start ;
+        justify-content: space-around;
+    }
+
+
+    #lmipad ,#llmipad {
+        
+    margin: 10px 0;
+    background-color: transparent;
+    border: 0;
+    color:   #006edb ;
+    border-radius:  20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    }
+
+    #infoipadonly {
+        padding-left: 350px; 
+        padding-top: 290px;
+       
+    }
+
+    #lmipad:hover ,#llmipad:hover{
+        
+        
+        color:#005ab4;
+       
+        }
+
+.ipadnormal {
+    height: 880px;
+    width: auto;
+     background: white;
+     background-image: url(Assets/ipad_hero__d0tgmaq6shm6_large.jpeg); background-repeat: no-repeat;
+     background-position: 50vh 50px;
+}
+
+.explorelineup {
+    background: whitesmoke;
+    padding-top: 50px;
+    padding-left: 12.5 vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.explorelineupheading {
+    width: 77vw;
+    margin-left: 12.5 vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding : 120px 100px 0px;
+    background: white;
+
+}
+
+
+.ipaditems {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    column-gap: 80px;
+    background: #ffffff;  
+     justify-content: space-between;
+}
+.shopitem{
+    background: white;
+    width: 11.7vw;
+    text-align: center;
+    
+}
+
+
+.shopitem input{
+   font-size: 15px;
+}
+
+.buyipadlu {
+    background: transparent;
+
+}
+
+#ipadprobuy ,#ipadairbuy,#ipad10buy,#ipad9buy,#ipadminibuy {
+    background: transparent;
+    color: #006EDB;
+    border: 0;
+    font-size: 16px;
+}
+
+
+#ipadprobuy:hover ,#ipadairbuy:hover,#ipad10buy:hover,#ipad9buy:hover,#ipadminibuy:hover {
+   transform: scale(1.05);
+   color: #00488f;
+}
+
+.laspicipad {
+    margin-top: 100px;
+}
+
+.laspicipad img {
+  object-fit: cover;
+}
+
+
+li input{
+    background:transparent;
+    color: rgb(179, 179, 179);
+    border: 0;
+}
+
+li input:hover {
+    color: rgb(223, 223, 223);
+}
+
+li img {
+    height: 18px;
+    position: relative;
+    top: -2px;
+
+}
+#shopcart {
+    width: 18px;
+    height: 18px;
+
+    background-image: url(Assets/2.png);
+    background-size: contain;
+    position: relative;
+    top: -2px;
+}
+#shopcart:hover {
+    transform: scale(1.2);
+
+}
+
+.shopitem img {
+    transition: transform .25s;
+}
+
+
+.shopitem img:hover {
+    transform: scale(1.03);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script2.js"></script>
+    <link rel="stylesheet" href="mac.css">
+    <link rel="stylesheet" href="shoppage.css">
+</head>
+<body>
+    <nav>
+
+        <ul>
+            <li><img src="Assets/pngwing.com.png" alt=""></li>
+            <li><input class="dropstore" type="button" value="Store" onclick="window.location.replace('main.html')"></li>
+            <li><input class="dropmac" type="button" value="Mac"  onclick="window.location.replace('mac.html')"> </li>
+            <li><input class="dropiphone" type="button" value="Phone" onclick="window.location.replace('ip15pro.html')"></li>
+            <li><input class="dropstore" type="button" value="iPad" onclick="window.location.replace('ipad.html')"></li>
+            <li><input class="dropwatch" type="button" value="Watch" onclick="window.location.replace('applewatch.html')"></li>
+            <li><input class="dropstore" type="button" value="Airpods"></li>
+            <li><input type="button" value="TV & Home"></li>
+            <li><input class="dropstore" type="button" value="Accesories"></li>
+            <li><input class="dropstore" type="button" value="Entertainment"></li>
+            <li><input class="dropstore" type="button" value="Support"></li>
+            <li><input id="shopcart" type="button" onclick="window.location.replace('shoppage.html')">
+                </li>
+        </ul>
+
+
+    </nav>
+
+    <div class="heading bold large">Shopping</div>
+
+    <div id="display">
+  <div class="itemlol"></div>
+</div>
+
+<div class="total">
+</div>
+<div class="buttonholder">
+    <button id="undo" onclick="removekeyandheadback()">Return</button>
+<button id="loadingscreen" onclick="checkemplist()">CheckOut</button></div>
+
+</body>
+</html>

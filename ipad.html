@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ipad.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        
+        <ul>
+            <li><img src="Assets/Untitled design (6).png" alt=""></li>
+            <li><input class="dropstore" type="button" value="Store" onclick="window.location.replace('main.html')"></li>
+            <li><input class="dropmac" type="button" value="Mac"  onclick="window.location.replace('mac.html')"> </li>
+            <li><input class="dropiphone" type="button" value="Phone" onclick="window.location.replace('ip15pro.html')"></li>
+            <li><input class="dropstore" type="button" value="iPad" onclick="window.location.replace('ipad.html')"></li>
+            <li><input class="dropwatch" type="button" value="Watch" onclick="window.location.replace('applewatch.html')"></li>
+            <li><input class="dropstore" type="button" value="Airpods"></li>
+            <li><input type="button" value="TV & Home"></li>
+            <li><input class="dropstore" type="button" value="Accesories"></li>
+            <li><input class="dropstore" type="button" value="Entertainment"></li>
+            <li><input class="dropstore" type="button" value="Support"></li>
+            <li><input id="shopcart" type="button" onclick="window.location.replace('shoppage.html')">
+                </li>
+        </ul>
+        
+
+    </nav>
+    <div class="ipads"><img src="Assets/ipadlist.png" alt=""></div>
+    <div class="frontipad white">
+<div class="infoipad">
+    <div class="lar bold">iPad Pro</div>
+    <div class="iconcontain"> <div class="med bold">Supercharged by</div>
+    <img src="m2_chip__buj2soxeo91e_large.png" alt="">
+</div>
+
+    <div class="small">₹81900.00*</div>
+    <div class="mbprobutton" id="frontbutton">
+    <input class="bluebut" type="button" value="Buy" id="buyipad">
+    <input id="lmipad" class="buybutton" type="button" value="Learn more >" >
+   </div>
+
+    </div>
+    </div>
+    <div class="ipadnormal">
+        <div class="infoipad" id="infoipadonly">
+            <div class="lar bold">iPad</div>
+            <div class="iconcontain"> <div class="med bold">Lovable. Drawable.
+                Magical.</div>
+            
+        </div>
+        
+            <div class="small">₹39900.00*</div>
+            <div class="mbprobutton" id="frontbutton">
+            <input class="bluebut" type="button" value="Buy" id="buyipad">
+            <input id="llmipad" class="buybutton" type="button" value="Learn more >" >
+        </div>
+    </div></div>
+    <div class="explorelineup">
+        <div class="explorelineupheading">
+            <h1 class="lar">Explore the line-up.</h1>
+            <span class=" small showcartbutton">Explore ipads ></span>
+            
+            </div>
+            <div class="items">
+                <div class="ipaditems">
+                    <div id="ipadpro" class="shopitem">
+                        <img class="itempic" src="Assets/compare_ipad_pro__erf9x8mw04sy_large.png" alt="">
+                        <img src="Assets/Screenshot 2024-04-20 012618.png" alt="">
+                        <div class="itemname med bold">iPad Pro</div>
+                      
+                        <div class="iteminfo small center">The ultimate iPad experience with the most advanced technology.</div>
+                        <div class="itemprice small bold">₹81900.00*</div>
+                        <div class="mbprobutton">
+                            <input class="iplearn" type="button" id="" value="Learn more">
+                            <input class="bluebut" type="button" value="Buy >" id="ipadprobuy" onclick="getinfo(this) , window.location.replace('shoppage.html')">
+                        </div>
+                    </div>
+                    <div id="ipadair" class="shopitem">
+                        <img class="itempic" src="Assets/compare_ipad_air__bxjv33pk6nte_large.png" alt=""><img src="Assets/Screenshot 2024-04-20 012628.png" alt="">
+                        <div class="itemname med bold">iPad Air</div>
+                       
+                        <div class="itemchip small center">Serious performance in a thin and light design.</div>
+                        <div class="itemchip small bold">₹59900.00*</div>
+                        <div class="mbprobutton">
+                            <input class="iplearn" type="button" id="" value="Learn more">
+                            <input class="bluebut" type="button" id="ipadairbuy" value="Buy >" onclick="getinfo(this) , window.location.replace('shoppage.html')">
+                        </div>
+                        
+                    </div>
+                    <div id="ipad10gen" class="shopitem">
+                        <img class="itempic" src="Assets/compare_ipad_10_9__f7p2wja0gwuy_large.png" alt="">
+                        <img src="Assets/Screenshot 2024-04-20 012636.png" alt="">
+                        <div class="center med bold itemname">iPad 10thGen</div>
+                       
+                        <div class="small center iteminfo">The all-new colourful iPad for the things you do every day.</div>
+                        <div class="small bold itemprice">₹39900.00*</div>
+                        <div class="mbprobutton">
+                            <input class="iplearn" type="button" id="" value="Learn more">
+                            <input class="bluebut" type="button" id="ipad10buy" value="Buy >" onclick="getinfo(this) , window.location.replace('shoppage.html')">
+                        </div>
+                        
+                    </div>
+                    <div id="ipad9gen" class="shopitem">
+                        <img class="itempic" src="Assets/compare_ipad_10_2__fwgwy7jydtea_large.png" alt="">
+                        <img src="Assets/Screenshot 2024-04-20 012643.png" alt="">
+                        <div class="center med itemname bold">iPad 9thGen</div>
+                       
+                        <div class="small center iteminfo">All the essentials in the most affordable iPad.</div>
+                        <div class="small bold itemprice">₹32900.00*</div>
+                        <div class="mbprobutton">
+                            <input class="iplearn" type="button" id="" value="Learn more">
+                            <input class="bluebut" type="button" id="ipad9buy" value="Buy >" onclick="getinfo(this) , window.location.replace('shoppage.html')">
+                        </div>
+                        
+                       
+                    </div>
+                    <div id="ipadmini" class="shopitem">
+                        <img class="itempic" src="Assets/compare_ipad_mini__czcsk9ukpeie_large.png" alt="">
+                        <img src="Assets/Screenshot 2024-04-20 012643.png" alt="">
+                        <div class="center itemname med bold">iPad mini</div>
+                       
+                        <div class="small center iteminfo">The full iPad experience designed to fit in one hand.</div>
+                        <div class="small bold itemprice">₹49900.00*</div>
+                        <div class="mbprobutton">
+                            <input class="iplearn" type="button" id="" value="Learn more">
+                            <input class="bluebut" type="button" id="ipadminibuy" value="Buy >" onclick="getinfo(this) , window.location.replace('shoppage.html')">
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+    </div>
+        <div class="lastpicipad">
+            <img src="Assets/ipadss.png" alt="">
+        </div>
+        <script src="feelinglikeking.js">
+    
+        </script>
+</body>
+</html>

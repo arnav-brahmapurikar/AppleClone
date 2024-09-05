@@ -1,0 +1,195 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    /* font-family:  Arial, sans-serif; */
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+      
+
+}
+body{
+        background-color: transparent; 
+}
+nav {
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position: sticky;
+    top :0px;
+    flex-direction: column;
+    z-index: 0;
+    width: 100vw;
+    
+}
+
+li img {
+    width: 1px;
+}
+
+.navconst {
+    backdrop-filter: blur(10px);
+    justify-self:center ;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.div{
+     width: 100%;
+}
+
+.emi {
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    justify-content: center;
+    color: white;
+    padding: 15px 0;
+    font-weight: 250;
+    font-size: 14px;
+}
+
+.blue {
+    color: #006EDB;
+}
+
+nav ul{
+    
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    gap: 15px;
+    justify-self: center;
+    padding: 15px  0px 8px 0px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    font-style: normal;
+    font-weight:300;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    column-gap: 45px;
+    
+}
+nav li {
+    row-gap: 50px;
+    font-weight: 100;
+    color: rgb(1, 1, 1);
+}
+nav img{
+    width: 17px;
+    padding-bottom: 5px ;
+  
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position:static;
+    top :0px;
+    
+  
+  
+    
+}
+  
+.bold {
+    font-weight: 560;
+}
+.large {
+    font-size: 50px;
+}
+
+.xsmall {
+    font-size: 13px;
+}
+.gray {
+    color: gray;
+}
+.med {
+    font-size: 25px;
+}
+#display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    padding-left: 20vw;
+}
+
+.itemlol {
+    display: flex;
+    width: 60vw;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    color: rgb(28, 28, 28);
+    border-radius: 20px;
+    align-content: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(113, 113, 113, 0.2), 0 6px 20px 0 rgba(66, 66, 66, 0.19);
+}
+
+.itemlol img {
+   justify-self: left;
+}
+
+.itemprice {
+  align-self: center;
+}
+
+.total  {
+    padding-left: 60vw;
+    padding-top: 30px;
+}
+
+#loadingscreen {
+   
+  
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 35px;
+        font-size: large;background: white;
+    color: black;
+    font-weight: 700;
+}
+#loadingscreen:hover {
+    transform : scale(1.05);
+     background: black;
+    color: white;
+    font-weight: 100;
+}
+#undo {
+  
+    padding: 15px 40px;
+    margin-top: 20px;
+    border-radius: 35px;
+        font-size: large;background: white;
+    color: black;
+    font-weight: 700;
+}
+
+.buttonholder {
+    
+   width: 100vw;
+    padding-top: 20px;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+#undo:hover {
+    transform : scale(1.05);
+    background: black;
+   color: white;
+   font-weight: 100;
+}
